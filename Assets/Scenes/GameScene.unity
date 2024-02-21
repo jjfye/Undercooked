@@ -309,10 +309,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9079062960206231163, guid: 531397201ab35fe4a91d129a0e35f7a9,
         type: 3}
+      propertyPath: testing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9079062960206231163, guid: 531397201ab35fe4a91d129a0e35f7a9,
+        type: 3}
       propertyPath: tomatoPrefab
       value: 
       objectReference: {fileID: 747386369759116281, guid: 3a8904a831e1dd64b99411bd816a071b,
         type: 3}
+    - target: {fileID: 9079062960206231163, guid: 531397201ab35fe4a91d129a0e35f7a9,
+        type: 3}
+      propertyPath: secondClearCounter
+      value: 
+      objectReference: {fileID: 799047549}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -931,6 +941,18 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 653429708}
   m_SourcePrefab: {fileID: 100100000, guid: 1c5dda3c7cd3cf742afcade5419faeab, type: 3}
+--- !u!114 &799047549 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9079062960206231163, guid: 531397201ab35fe4a91d129a0e35f7a9,
+    type: 3}
+  m_PrefabInstance: {fileID: 2123594330}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 149f136d3aa69af4592fa181b6040736, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
